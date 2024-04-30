@@ -22,7 +22,7 @@ h1 {
     max-width: 800px;
     margin: 80px auto 20px; 
     padding: 20px;
-    background-image: url('images/snoopy.jpeg');
+    /* background-image: url('images/snoopy.jpeg'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
