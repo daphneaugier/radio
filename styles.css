@@ -23,18 +23,19 @@ h1 {
     text-align: center;
 }
 .button {
-    background-color: #4CAF50;
+    background-image: url('keziah.jpg'); /* Path to your image */
+    background-size: cover;
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: transparent;
+    padding: 50px 150px; /* Adjust padding to fit your image */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 0; /* Hide text */
     cursor: pointer;
     border-radius: 4px;
 }
+
 footer {
     background-color: #333;
     color: #fff;
