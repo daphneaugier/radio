@@ -1,43 +1,64 @@
 body {
-    background-color: #000;
-    color: #fff;
+    background-color: #d2ff1e5b;
+    color: #482222;
     font-family: Arial, sans-serif;
+    font-size: 30px;
     margin: 0;
     padding: 0;
 }
+
 header {
-    background-color: #333;
+    background-color: #1439117d;
     padding: 20px;
     text-align: center;
 }
+
 h1 {
     margin: 0;
     font-size: 36px;
 }
+
 .container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 80px auto 20px; 
     padding: 20px;
+    background-image: url('images/snoopy.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
 .content {
     text-align: center;
 }
+
 .button {
-    background-image: url('keziah.jpg'); /* Path to your image */
+    background-image: url('images/keziah.jpg'); 
     background-size: cover;
     border: none;
     color: transparent;
-    padding: 50px 150px; /* Adjust padding to fit your image */
+    padding: 150px 150px; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 0; /* Hide text */
+    font-size: 0; 
     cursor: pointer;
     border-radius: 4px;
+    animation: rotateButton 5s infinite linear; 
+}
+
+@keyframes rotateButton {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 footer {
-    background-color: #333;
+    background-color: #aad3a8;
     color: #fff;
     text-align: center;
     padding: 10px;
